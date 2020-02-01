@@ -23,7 +23,7 @@ app.use("/", express.static("build"));
 
 
 
-let listener = app.listen(8000, function () {
+let listener = app.listen(80, function () {
 
 	console.log(`listening on ${listener.address().port}`);
 
