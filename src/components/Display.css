@@ -1,0 +1,47 @@
+.display {
+	position:absolute;
+	width:60%;
+	height:100%;
+	top:100px;
+	left:100px;
+}
+
+.input-container {
+
+	position:relative;
+	display:flex;
+	flex-direction: row;
+	height:50px;
+	border:1px solid black;
+}
+
+.input {
+	position:relative;
+}
+
+.addtodo-btn {
+
+	position:relative;
+	margin:0 50px;
+	width:100px;
+	height:50px;
+	background-color:black;
+	color:white;
+}
+
+.todo-list {
+
+	position:relative;
+	width:100%;
+	border:1px solid black;
+}
+
+.todo-item {
+
+	position:relative;
+	width:200px;
+	height:50px;
+	margin:20px 0;
+	background-color:black;
+	color:white;
+}

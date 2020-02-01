@@ -1,0 +1,14 @@
+
+
+.button-outer {
+
+	position:relative;
+	display:inline-block;
+	width:100px;
+	height:50px;
+	top:100px;
+	margin:50px 0;
+	background-color:black;
+	color:white;
+	cursor:pointer;
+}
