@@ -7,9 +7,7 @@ phases:
   build:
     commands:
       - npm run build
-  post_build:
-    commands:
-      - cp appspec.yml /build/appspec.yml
 artifacts:
   files:
-    - build/**/*
+    - /**/*
+    base-directory: build
