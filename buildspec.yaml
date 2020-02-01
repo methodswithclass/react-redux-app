@@ -7,10 +7,6 @@ phases:
   build:
     commands:
       - npm run build
-  post_build:
-    commands:
-      - cd /build; zip -r ../package.zip *
 artifacts:
   files:
-    - package.zip
-  discard-paths: yes
+    - "**/*"
